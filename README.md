@@ -14,15 +14,13 @@ Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
 
 
 
-### Templates
-1. https://dstoianov.github.io/kob.bau.de/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/atlanta/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/bizwheel/template/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/businessline-corporate/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/constra/themes/constra/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/meghna-premium/themes/meghna-premium/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/produstry/index.html
-1. https://dstoianov.github.io/kod.bau.de/template/rappo/themes/rappo/index.html
+### KOD Bau
+
+1. Name of the site
+   1. https://kod.bau.de or
+   1. https://kod-bau.de
+2. https://dstoianov.github.io/kod.bau.de/de/index.html
+
 
 
 
