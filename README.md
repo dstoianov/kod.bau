@@ -1,12 +1,12 @@
 # Project `kod.bau.de`
 
-### Key words
+### Keywords
 
 Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
 
 Виды работ
 1. Sanierung, Renovierung
-2. Trockenbau
+2. Trockenbau 
 3. Fassaden
 4. Terrassen bauen
 5. Garten arbeiten
@@ -21,6 +21,10 @@ Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
    1. https://kod-bau.de
 2. https://dstoianov.github.io/kod.bau.de/de/index.html
 
+### Features
+
+1. Map - in work
+2. HomePage, Kontakten -> WhatsApp link to open in separate tab to start conversation
 
 
 
@@ -33,7 +37,6 @@ Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
 </a>
 </div>
 ```
-
 
 
 HOME
@@ -63,9 +66,6 @@ E-Mail: kod.bau.de@gmail.com
 
 + Karte
 ```
-
-
-
 
 
 https://deeptaanshu.github.io/personal-website
@@ -103,4 +103,33 @@ Fassadensanierung & Umbau Theater Nestroyhof in Wien Leopoldstadt - SaniBau
 </script>
 
 
+
+### Hugo tutorials
+
+1. https://www.youtube.com/watch?v=T671OzJisFs
+2. https://www.youtube.com/watch?v=u53xfby0EYI&list=PLbWvcwWtuDm1OpcbohZTOwwzmc8SMmlBD&index=2
+3. https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
+
+https://themefisher.com/hugo-business-themes/
+https://gethugothemes.com/free-hugo-themes/#free-hugo-business-themes
+https://gethugothemes.com/free-hugo-themes/#free-hugo-landing-page-themes
+
+
+
+
+
+### List of themes
+ - https://learning-zone.github.io/website-templates/
+ - https://github.com/learning-zone/website-templates
+ - https://learning-zone.github.io/website-templates/basic-free-html5-template-for-multi-purpose/services.html
+
+
+### jekyll themes
+https://rubygems.org/search?query=jekyll-theme
+
+https://jekyllthemes.io/theme/trade-business-jekyll-theme
+https://github.com/kiarafbickers/jekyll-theme-trade
+
+
+https://github.com/zerostaticthemes/jekyll-serif-theme
 
