@@ -19,7 +19,7 @@ Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
 1. Name of the site
    1. https://kod.bau.de or
    1. https://kod-bau.de
-2. https://dstoianov.github.io/kod.bau.de/de/index.html
+2. https://dstoianov.github.io/kod.bau/de/
 
 ### Features
 
