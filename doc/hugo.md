@@ -2,9 +2,6 @@
 
 
 
-
-
-
 https://www.youtube.com/watch?v=c7vpcqA6SEQ
 
 

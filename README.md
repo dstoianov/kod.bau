@@ -1,4 +1,4 @@
-# Project `kod.bau.de`
+# Project `kod-bau.de`
 
 ### Keywords
 
@@ -13,13 +13,11 @@ Renovierung und Sanierung, Umbau,  Trockenbau, Gartenarbeiten.
 6. Pflasterarbeiten und Naturstein
 
 
-
 ### KOD Bau
 
-1. Name of the site
-   1. https://kod.bau.de or
+1. Name of the site 
    1. https://kod-bau.de
-2. https://dstoianov.github.io/kod.bau/de/
+   2. https://dstoianov.github.io/kod.bau/de/
 
 ### Features
 
@@ -54,7 +52,8 @@ KONTAKT
 
 ```
 BAUUNTERNEHMEN KOD Bau Berlin
-Ihr Partner in allen Sanierungsarbeiten aus einer Hand (Ваш универсальный партнер для всех ремонтных работ)
+Ihr Partner in allen Sanierungsarbeiten aus einer Hand 
+(Ваш универсальный партнер для всех ремонтных работ)
 
 Wir stehen Ihnen gerne zur Verfügung:
 
