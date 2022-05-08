@@ -132,3 +132,7 @@ https://github.com/kiarafbickers/jekyll-theme-trade
 
 https://github.com/zerostaticthemes/jekyll-serif-theme
 
+## Domains
+
+- https://www.youtube.com/watch?v=EX4w9hsduNA
+- https://medium.com/@samdutton/github-pages-cloudflare-custom-domain-checklist-e86c786194a4
