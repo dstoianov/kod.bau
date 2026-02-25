@@ -32,3 +32,4 @@ build/
 .vscode/
 
 !/.idea/
+!/kod-bau-de.webflow.zip
