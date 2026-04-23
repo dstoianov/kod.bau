@@ -23,7 +23,8 @@ Alternative: [GitHub Pages](https://dstoianov.github.io/kod.bau)
 **KOD Bau Berlin**  
 Therese-Giehse-Str. 17, 13599 Berlin (Spandau)
 Mobil: +49 176 614 29 661  
-E-Mail: kod.bau.de@gmail.com
+E-Mail: kod.bau.berlin@gmail.com
+
 
 [WhatsApp Kontakt starten](https://wa.me/4917661429661)
 
