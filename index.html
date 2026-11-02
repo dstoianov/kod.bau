@@ -2,24 +2,25 @@
 <html lang="de" data-wf-page="694a9befdcf4bbf035bd0a13" data-wf-site="694a9beddcf4bbf035bd09c2">
 <head>
     <meta charset="utf-8">
-    <title>Renovierung &amp; Wohnungssanierung in Berlin-Spandau | KOD Bau</title>
+    <title>KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin</title>
     <meta name="description"
-          content="KOD Bau – Renovierung und Wohnungssanierung in Berlin-Spandau. Seit über 13 Jahren führen wir präzise und zuverlässige Renovierungsarbeiten in Berlin und Umgebung durch. Jetzt unverbindliches Angebot anfordern.">
+          content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin. Seit 2012: Bodenverlegung, Malerarbeiten und komplette Wohnungssanierung in Berlin und Umgebung. Jetzt unverbindliches Angebot anfordern.">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="https://kod-bau.de/">
 
-    <meta property="og:title" content="Renovierung &amp; Wohnungssanierung in Berlin-Spandau | KOD Bau">
+    <meta property="og:site_name" content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin">
+    <meta property="og:title" content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin">
     <meta property="og:description"
-          content="Professionelle Renovierungen und Sanierungen in Berlin-Spandau. Jetzt unverbindliches Angebot anfordern.">
+          content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin. Seit 2012: Bodenverlegung, Malerarbeiten und komplette Wohnungssanierung in Berlin und Umgebung.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kod-bau.de/">
     <meta property="og:image" content="https://kod-bau.de/images/hero-photo.webp">
     <meta property="og:locale" content="de_DE">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Renovierung &amp; Wohnungssanierung in Berlin-Spandau | KOD Bau">
+    <meta name="twitter:title" content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin">
     <meta name="twitter:description"
-          content="Professionelle Renovierungen und Sanierungen in Berlin-Spandau. Jetzt unverbindliches Angebot anfordern.">
+          content="KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin. Seit 2012: Bodenverlegung, Malerarbeiten und komplette Wohnungssanierung in Berlin und Umgebung.">
     <meta name="twitter:image" content="https://kod-bau.de/images/hero-photo.webp">
 
     <!-- Favicon -->
@@ -45,12 +46,13 @@
         {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "KOD Bau",
+            "name": "KOD Bau – Renovierungen & Wohnungssanierung Berlin",
+            "alternateName": "KOD Bau",
             "image": "https://kod-bau.de/images/webclip.png",
             "logo": "https://kod-bau.de/images/webclip.png",
             "url": "https://kod-bau.de/",
             "telephone": "+4917661429661",
-            "email": "mailto:kod.bau.berlin@gmail.com",
+            "email": "kod.bau.berlin@gmail.com",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Therese-Giehse-Str. 17",
@@ -60,7 +62,7 @@
                 "addressCountry": "DE"
             },
             "areaServed": "Berlin-Spandau",
-            "description": "Seit über 13 Jahren führt KOD Bau präzise und zuverlässige Renovierungsarbeiten in Berlin und Umgebung durch.",
+            "description": "Seit 2012 führen wir präzise und zuverlässige Renovierungsarbeiten in Berlin und Umgebung durch. Unser Schwerpunkt liegt auf hochwertiger Renovierung – von der Bodenverlegung über Malerarbeiten bis hin zur kompletten Wohnungssanierung. Ob einzelne Räume oder ganze Wohnungen: Wir arbeiten sauber, termintreu und flexibel. Unsere Kunden schätzen nicht nur unsere Erfahrung, sondern auch den respektvollen Umgang, transparente Preise und die ordentliche Übergabe jeder Baustelle. Jede Renovierung wird individuell geplant und fachgerecht umgesetzt. Vertrauen Sie auf Qualität und Leidenschaft für Renovierungen – wir freuen uns auf Ihre Anfrage!",
             "openingHours": [
                 "Mo-Fr 07:00-17:00",
                 "Sa 07:00-14:00"
@@ -73,7 +75,7 @@
             "priceRange": "€€",
             "keywords": "Renovierung, Sanierung, Trockenbau, Berlin, Spandau, Bauunternehmen",
             "sameAs": [
-                "https://www.instagram.com/kod_bau.berlin"
+                "https://www.instagram.com/kod_bau.berlin/"
             ]
         }
     </script>
@@ -122,12 +124,14 @@
         @media (max-width: 767px) {
             /* Верхній бар */
             #header-top {
-                max-height: 72px;
+                height: 96px;
+                min-height: 96px;
+                max-height: 96px;
             }
 
             /* Загальний хедер */
             #site-header {
-                height: 152px; /* 72 + 80 */
+                height: 176px; /* 96 + 80 */
             }
 
             #site-header.is-topbar-hidden {
@@ -136,7 +140,22 @@
 
             /* Компенсація при схованому top bar (mobile) */
             #header-main.topbar-hidden {
-                margin-top: -72px;
+                margin-top: -96px;
+            }
+
+            #header-top .header-contact-links {
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                align-content: center;
+                gap: 4px 14px;
+            }
+        }
+
+        @media (max-width: 479px) {
+            #header-top .header-contact-links {
+                flex-flow: column;
+                align-items: flex-start;
+                row-gap: 4px;
             }
         }
     </style>
@@ -146,7 +165,7 @@
      data-easing2="ease" role="banner" class="navbar w-nav">
     <div id="header-top" class="header-top">
         <div class="max-width">
-            <div class="feature-wrapper">
+            <div class="feature-wrapper header-contact-links">
                 <a href="mailto:kod.bau.berlin@gmail.com" class="feature-item w-inline-block"><img
                         src="images/Vector-22.svg" loading="lazy" width="18" height="18" alt="" class="icon">
                     <div class="txt-14 header">kod.bau.berlin@gmail.com</div>
@@ -158,17 +177,22 @@
                 <a href="tel:+4917661429661" class="feature-item w-inline-block"><img src="images/Vector-24.svg"
                                                                                       loading="lazy" width="18"
                                                                                       height="18" alt="" class="icon">
-                    <div class="txt-14 header">Mobil: +49 176 614 29 661</div>
+                    <div class="txt-14 header">Mobil: 0176 61429661</div>
+                </a>
+                <a href="https://wa.me/4917661429661" target="_blank" rel="noopener noreferrer"
+                   aria-label="KOD Bau per WhatsApp kontaktieren" class="feature-item w-inline-block"><img
+                        src="images/Vector-24.svg" loading="lazy" width="18" height="18" alt="" class="icon">
+                    <div class="txt-14 header">Auch per WhatsApp</div>
                 </a>
             </div>
             <div class="feature-wrapper">
                 <div class="icon-list">
-                    <a href="https://www.instagram.com/kod_bau.berlin" target="_blank" rel="noopener noreferrer"
-                       aria-label="Instagram von KOD Bau" class="link w-inline-block"><img src="images/Item-→-Link.svg" loading="lazy" width="18"
+                    <a href="https://www.instagram.com/kod_bau.berlin/" target="_blank" rel="noopener noreferrer"
+                       aria-label="Instagram von KOD Bau – Renovierungen und Wohnungssanierung Berlin" class="link w-inline-block"><img src="images/Item-→-Link.svg" loading="lazy" width="18"
                                                                  height="18" alt="" class="social-icon"></a>
-                    <a href="tel:+4917661429661" aria-label="KOD Bau anrufen" class="link w-inline-block"><img src="images/Item-→-Link-1.svg" loading="lazy"
+                    <a href="tel:+4917661429661" aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin anrufen" class="link w-inline-block"><img src="images/Item-→-Link-1.svg" loading="lazy"
                                                                  width="18" height="18" alt="" class="social-icon"></a>
-                    <a href="mailto:kod.bau.berlin@gmail.com" aria-label="KOD Bau per E-Mail kontaktieren" class="link w-inline-block"><img src="images/Item-→-Link-2.svg" loading="lazy"
+                    <a href="mailto:kod.bau.berlin@gmail.com" aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin per E-Mail kontaktieren" class="link w-inline-block"><img src="images/Item-→-Link-2.svg" loading="lazy"
                                                                  width="18" height="18" alt="" class="social-icon"></a>
                 </div>
             </div>
@@ -213,7 +237,7 @@
             </div>
             <div class="button-wrapper">
                 <a href="tel:+4917661429661" class="cta-butt w-inline-block">
-                    <div class="txt-15">+49 176 614 29 661</div>
+                    <div class="txt-15">0176 61429661</div>
                     <img src="images/Vector-25.svg" loading="lazy" width="18" height="18" alt="" class="icon">
                 </a>
                 <a data-w-id="f44a5da5-2d42-e343-53bd-efe958aa0598" href="#contact-form-main"
@@ -239,9 +263,7 @@
                 <div class="txt-body dark">Renovierung, Sanierung und Innenausbau aus einer Hand in Berlin-Spandau.</div>
             </div>
             <div class="txt-box">
-                <div class="txt-body">Wir arbeiten ständig daran, unsere Leistung und unseren Service zu verbessern.
-                    Darum befragen wir regelmäßig unsere Kunden. Das Ergebnis: völlig unterschiedliche Projekte, aber
-                    immer zufriedene Kunden.
+                <div class="txt-body">Unser Leistungsangebot umfasst Renovierungen, Trockenbau, Bodenverlegung und Malerarbeiten sowie Fliesen-, Putz- und Sanitärarbeiten.
                 </div>
             </div>
         </div>
@@ -347,7 +369,7 @@
                     <div class="heading-18">Erfahrung, die Vertrauen schafft</div>
                 </div>
                 <div class="txt-container">
-                    <div class="txt-body">13 Jahre Erfahrung und viele zufriedene Kunden sprechen für sich. Wir liefern
+                    <div class="txt-body">Erfahrung seit 2012 und viele zufriedene Kunden sprechen für sich. Wir liefern
                         Qualität, auf die Sie sich verlassen können.
                     </div>
                 </div>
@@ -509,9 +531,7 @@
             <div data-w-id="8c78f254-a394-d114-68c5-7fb299f3deff" style="opacity:0" class="photo-about-container"><img
                     src="images/transparent-Photoroom-57-1.svg" loading="lazy" alt="" class="logo-absolute"></div>
             <div class="txt-grid">
-                <div class="txt-body">Seit über 13 Jahren führen wir präzise und zuverlässige Renovierungsarbeiten in
-                    Berlin und Umgebung durch. Wir stehen für hochwertige Ausführung, saubere Abläufe und Ergebnisse,
-                    die fachgerecht umgesetzt werden.
+                <div class="txt-body">Seit 2012 führen wir präzise und zuverlässige Renovierungsarbeiten in Berlin und Umgebung durch. Unser Schwerpunkt liegt auf hochwertiger Renovierung – von der Bodenverlegung über Malerarbeiten bis hin zur kompletten Wohnungssanierung. Ob einzelne Räume oder ganze Wohnungen: Wir arbeiten sauber, termintreu und flexibel. Unsere Kunden schätzen nicht nur unsere Erfahrung, sondern auch den respektvollen Umgang, transparente Preise und die ordentliche Übergabe jeder Baustelle. Jede Renovierung wird individuell geplant und fachgerecht umgesetzt. Vertrauen Sie auf Qualität und Leidenschaft für Renovierungen – wir freuen uns auf Ihre Anfrage!
                 </div>
                 <div class="txt-body">
                     Ob es sich um einfache Renovierungsarbeiten oder anspruchsvolle Innenausbauten handelt –
@@ -660,6 +680,11 @@
             </div>
         </div>
         <img src="images/Screenshot-2025-12-10-153900-1-1.png" loading="lazy" alt="Bewertungen und Referenzen von KOD Bau Kunden" class="image-5">
+        <a href="https://www.google.com/maps/place/KOD+Bau+%E2%80%93+Renovierungen+%26+Wohnungssanierung+Berlin/@52.5458821,13.2259,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhCM4EZjJGYi7HxWw6AS06HN!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs%2FANWiy9SFd2wsX0cB0PKOv3LJu1-xLks-Fv2e7yUntYV_RhTA-tMGqADY1rMxzu4yfSW5mzAWDHxgdyqBAw3VneJEQl_7aa55kjDMzGbM9t9qCh9qkrkYY3xuYRXUeVbR85kwpXc5hHWN4DssS8a9%3Dw224-h298-k-no!7i960!8i1280!4m18!1m8!3m7!1s0x47a85709fd0e0191:0x1c27ef868a7b32e1!2sKOD+Bau+%E2%80%93+Renovierungen+%26+Wohnungssanierung+Berlin!8m2!3d52.5458821!4d13.2259!10e5!16s%2Fg%2F11pvmxbkv4!3m8!1s0x47a85709fd0e0191:0x1c27ef868a7b32e1!8m2!3d52.5458821!4d13.2259!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11pvmxbkv4!5m1!1e2?entry=ttu&amp;g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+           target="_blank" rel="noopener noreferrer" class="cta-butt-shadow w-inline-block"
+           aria-label="Projektfoto von KOD Bau auf Google Maps ansehen">
+            <div class="txt-15 white">Projektfoto auf Google Maps ansehen</div>
+        </a>
         <div class="embed-review w-embed"></div>
     </div>
 </section>
@@ -800,12 +825,12 @@
                 </div>
                 <div class="contacts-wrapper mob">
                     <a data-w-id="8fa0e360-fe3f-f3c2-5304-686a59c36cb7" style="opacity:0"
-                       href="https://maps.app.goo.gl/9nq4UdrPKwyqzvBY9" target="_blank" rel="noopener noreferrer"
+                       href="https://maps.app.goo.gl/QUkQx64LMbgYcEiK8" target="_blank" rel="noopener noreferrer"
                        class="layout-horizontal alight w-inline-block"><img src="images/map.svg" loading="lazy"
                                                                             width="55" alt="" class="icon-custom">
                         <div class="layout-vert">
                             <div class="heading-18 medium">Adresse</div>
-                            <div class="txt-body">KOD Bau<br>Therese-Giehse-Str. 17, 13599 Berlin</div>
+                            <div class="txt-body">KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin<br>Therese-Giehse-Str. 17, 13599 Berlin</div>
                         </div>
                     </a>
                     <div data-w-id="8fa0e360-fe3f-f3c2-5304-686a59c36cc0" style="opacity:0"
@@ -819,14 +844,18 @@
                             </div>
                         </div>
                     </div>
-                    <a data-w-id="8fa0e360-fe3f-f3c2-5304-686a59c36cc9" style="opacity:0" href="tel:+4917661429661"
-                       class="layout-horizontal alight w-inline-block"><img src="images/phone-2.svg" loading="lazy"
-                                                                            alt="" class="icon-custom">
+                    <div data-w-id="8fa0e360-fe3f-f3c2-5304-686a59c36cc9" style="opacity:0"
+                         class="layout-horizontal alight"><img src="images/phone-2.svg" loading="lazy"
+                                                                alt="" class="icon-custom">
                         <div class="layout-vert">
                             <div class="heading-18 medium">Mobil</div>
-                            <div class="txt-body">Tel.: +49 176 614 29 661<br>Auch per WhatsApp</div>
+                            <div class="txt-body">Tel.: <a href="tel:+4917661429661" aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin telefonisch erreichen"
+                                                            style="color:inherit;text-decoration:underline">0176 61429661</a><br>
+                                <a href="https://wa.me/4917661429661" target="_blank" rel="noopener noreferrer"
+                                   aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin per WhatsApp kontaktieren" style="color:inherit;text-decoration:underline">Auch per WhatsApp</a>
+                            </div>
                         </div>
-                    </a>
+                    </div>
                     <a data-w-id="8fa0e360-fe3f-f3c2-5304-686a59c36cd2" style="opacity:0"
                        href="mailto:kod.bau.berlin@gmail.com" class="layout-horizontal alight w-inline-block"><img
                             src="images/email-1.svg" loading="lazy" alt="" class="icon-custom">
@@ -842,7 +871,7 @@
     <div class="wrapper-max">
         <div class="map-wrapper">
             <div class="map-embed w-embed w-iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.311942753502!2d13.2259!3d52.5458821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85709fd0e0191%3A0x1c27ef868a7b32e1!2sKOD%20Bau%20%E2%80%93%20Renovierung%20%26%20Wohnungssanierung%20Berlin!5e0!3m2!1sde!2sde!4v1768582989788!5m2!1sde!2sde"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.311942753502!2d13.2259!3d52.5458821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85709fd0e0191%3A0x1c27ef868a7b32e1!2sKOD%20Bau%20%E2%80%93%20Renovierungen%20%26%20Wohnungssanierung%20Berlin!5e0!3m2!1sde!2sde!4v1768582989788!5m2!1sde!2sde"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -924,16 +953,16 @@
         <div class="footer-grid">
             <div class="footer-block"><img src="images/transparent-Photoroom-57-1.svg" loading="lazy" alt=""
                                            class="footer-logo">
-                <div class="txt-body _14">KOD Bau – Ihr zuverlässiger Partner für Renovierung und Sanierung in Berlin.
+                <div class="txt-body _14">KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin ist Ihr zuverlässiger Partner für Renovierung und Sanierung in Berlin.
                     Qualität, Transparenz und Kundenzufriedenheit stehen bei uns an erster Stelle.
                 </div>
                 <div class="icon-list footer">
-                    <a href="https://www.instagram.com/kod_bau.berlin" target="_blank" rel="noopener noreferrer"
-                       aria-label="Instagram von KOD Bau" class="link w-inline-block"><img src="images/Item-→-Link.svg" loading="lazy" width="18"
+                    <a href="https://www.instagram.com/kod_bau.berlin/" target="_blank" rel="noopener noreferrer"
+                       aria-label="Instagram von KOD Bau – Renovierungen und Wohnungssanierung Berlin" class="link w-inline-block"><img src="images/Item-→-Link.svg" loading="lazy" width="18"
                                                                  height="18" alt="" class="social-icon"></a>
-                    <a href="tel:+4917661429661" aria-label="KOD Bau anrufen" class="link w-inline-block"><img src="images/Item-→-Link-1.svg" loading="lazy"
+                    <a href="tel:+4917661429661" aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin anrufen" class="link w-inline-block"><img src="images/Item-→-Link-1.svg" loading="lazy"
                                                                  width="18" height="18" alt="" class="social-icon"></a>
-                    <a href="mailto:kod.bau.berlin@gmail.com" aria-label="KOD Bau per E-Mail kontaktieren" class="link w-inline-block"><img src="images/Item-→-Link-2.svg" loading="lazy"
+                    <a href="mailto:kod.bau.berlin@gmail.com" aria-label="KOD Bau – Renovierungen und Wohnungssanierung Berlin per E-Mail kontaktieren" class="link w-inline-block"><img src="images/Item-→-Link-2.svg" loading="lazy"
                                                                  width="18" height="18" alt="" class="social-icon"></a>
                 </div>
             </div>
@@ -993,14 +1022,14 @@
                    class="link-footer w-inline-block">
                     <div class="div-block"><img src="images/Vector-27.svg" loading="lazy" alt="" class="icon-custom">
                     </div>
-                    <div class="txt-body footer">Tel.: +49 176 614 29 661<br></div>
+                    <div class="txt-body footer">Tel.: 0176 61429661<br></div>
                 </a>
                 <a data-w-id="70ae32f4-561f-5d13-7baf-36eee3607b30" href="mailto:kod.bau.berlin@gmail.com"
                    class="link-footer w-inline-block">
                     <div class="div-block"><img src="images/Icon-1.svg" loading="lazy" alt="" class="icon-custom"></div>
                     <div class="txt-body footer">kod.bau.berlin@gmail.com<br></div>
                 </a>
-                <a data-w-id="70ae32f4-561f-5d13-7baf-36eee3607b37" href="https://maps.app.goo.gl/9nq4UdrPKwyqzvBY9"
+                <a data-w-id="70ae32f4-561f-5d13-7baf-36eee3607b37" href="https://maps.app.goo.gl/QUkQx64LMbgYcEiK8"
                    target="_blank" rel="noopener noreferrer" class="link-footer w-inline-block">
                     <div class="div-block"><img src="images/Vector-28.svg" loading="lazy" alt="" class="icon-custom">
                     </div>
@@ -1017,7 +1046,7 @@
                 <div class="txt-body policy">Datenschutz folgt<br></div>
             </div>
             <div class="footer-block horizontal">
-                <div class="txt-body policy">Copyright © 2026 KOD Bau<br></div>
+                <div class="txt-body policy">Copyright © 2026 KOD Bau – Renovierungen &amp; Wohnungssanierung Berlin<br></div>
             </div>
         </div>
     </div>
